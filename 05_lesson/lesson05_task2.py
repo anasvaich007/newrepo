@@ -14,4 +14,5 @@ button = driver.find_element(
     )
 button.click()
 
-sleep(50)
+sleep(5)
+driver.quit()

@@ -29,6 +29,6 @@ success_message = driver.find_element(
     ).text
 print(success_message.strip())
 
-sleep(20)
+sleep(5)
 
 driver.quit()

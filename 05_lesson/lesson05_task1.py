@@ -12,4 +12,5 @@ driver.get("http://uitestingplayground.com/classattr")
 button = driver.find_element(By.CSS_SELECTOR, "button.btn-test")
 button.click()
 
-sleep(20)
+sleep(5)
+driver.quit()
