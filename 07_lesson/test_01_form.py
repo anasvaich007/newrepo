@@ -37,5 +37,4 @@ def test_form_fields():
     for field in fields.keys():
         assert "alert-success" in page.get_field_class(field)
 
-    sleep(5)
     driver.quit()
